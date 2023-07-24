@@ -25,7 +25,7 @@ export default {
   colors: {
     primary: '#F231A5',
     secondary: '#3CD3C1',
-    mainBg: '#06092B',
+    mainBg: '#1F2937',
     lightBg: '#F2F2F2',
     white: '#FAFAFA',
     black: '#030517',
@@ -37,8 +37,8 @@ export default {
   spacings: {
     xxsmall: '0.8rem',
     xsmall: '1.6rem',
-    small: '2.4rem',
-    medium: '3.2rem',
+    small: '2rem',
+    medium: '3rem',
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem'
