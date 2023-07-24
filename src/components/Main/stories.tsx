@@ -5,9 +5,15 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'Boilerplate',
-    description: 'Typescript, ReactJS, NextJS e Styled Components'
+    title: 'title default',
+    description: 'description default'
   }
 } as Meta
 
-export const Basic: StoryFn = () => <Main />
+export const Basic: StoryFn = (args) => <Main {...args} />
+Basic.args = {
+  title: 'Boilerplate',
+  description: 'Typescript, ReactJS, NextJS e Styled Components'
+}
+
+export const Default: StoryFn = (args) => <Main {...args} />
